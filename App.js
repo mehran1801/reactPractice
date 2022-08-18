@@ -2,6 +2,8 @@ import { Pizza } from "./components/Pizza";
 import { GroceryCart } from "./components/GroceryCart";
 import {SandBox} from './components/SandBox';
 import { ToggleWord } from "./components/ToggleWord";
+import { Login } from "./components/Login";
+import { EditProfile } from "./components/EditProfile";
 
 
 export function App() {
@@ -10,6 +12,14 @@ export function App() {
     <>
       <div style={(divStyle, { backgroundColor: "#e5eaf5" })}>
         <SandBox />
+        <hr></hr>
+      </div>
+      <div style={(divStyle, { backgroundColor: "#e5eac8" })}>
+        <EditProfile />
+        <hr></hr>
+      </div>
+      <div style={(divStyle, { backgroundColor: "#e5acd9" })}>
+        <Login />
         <hr></hr>
       </div>
       <div style={(divStyle, { backgroundColor: "khaki" })}>
